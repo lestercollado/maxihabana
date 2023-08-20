@@ -158,7 +158,10 @@ tr.wc-block-cart-items__row{
 .wc-block-mini-cart__footer {
     position: static !important;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
+    nav.wp-block-navigation-is-layout-flex{
+        margin-inline-start: 0% !important;
+    }
 	.wp-block-columns.is-layout-flex.wp-container-27 img{
         width: 70% !important;
         justify-content: center !important;
@@ -298,7 +301,7 @@ form[role="search"]{
     width: 15%;
 }
 nav.wp-block-navigation-is-layout-flex{
-    margin-inline-start: 27% !important;
+    margin-inline-start: 27%;
     padding-right: 1%;
 }
 .wp-block-woocommerce-product-price{

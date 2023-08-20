@@ -445,6 +445,7 @@ div.wc-block-grid__product-price > del > span.woocommerce-Price-amount{
 }
 span.woocommerce-Price-amount{
     font-size: 25px !important;
+    text-decoration: none !important;
 }
 .label-recientes{
     margin-left: 18.5% !important;;

@@ -1,0 +1,141 @@
+#jvm-rich-text-icons_custom_icon_generator h2.title{
+        display: inline-block;
+    }
+
+    #jvm-rich-text-icons_custom_icon_uploader {
+        text-align: center;
+    }
+
+    /*#jvm-rich-text-icons_custom_icon_generator .uploader-inline .drop-instructions {
+        display: none;
+    }
+
+    .supports-drag-drop #jvm-rich-text-icons_custom_icon_generator .uploader-inline .drop-instructions {
+        display: block;
+    }*/
+
+    #jvm-rich-text-icons_custom_icon_generator .media-sidebar {
+        position: relative;
+        width: auto;
+        margin-top: 12px;
+        padding: 0 16px;
+        border-left: 4px solid #d63638;
+        box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+        background-color: #fff;
+        overflow: auto;
+    }
+
+    #jvm-rich-text-icons_custom_icon_generator #upload-progess {
+        display: none;
+    }
+
+    #jvm-rich-text-icons_custom_icon_generator #media-uploader-status.uploading #upload-progess {
+        display: block;
+    }
+
+
+    #jvm-rich-text-icons_custom_icon_generator .media-progress-bar {
+        position: relative;
+        height: 10px;
+        width: 70%;
+        margin: 10px auto;
+        border-radius: 10px;
+        background: #dcdcde;
+        width: 100%;
+    }
+
+    #jvm-rich-text-icons_custom_icon_generator .media-progress-bar div {
+        height: 10px;
+        min-width: 20px;
+        width: 0;
+        background: #2271b1;
+        border-radius: 10px;
+        transition: width .3s;
+    }
+
+    #jvm-rich-text-icons_custom_icon_generator #media-uploader-status.errors::after,
+    #jvm-rich-text-icons_custom_icon_generator #media-uploader-status.uploading::after {
+        content: "";
+        display: flex;
+        clear: both;
+        height: 24px;    
+    }
+
+    #jvm-rich-text-icons_custom_icon_generator .media-sidebar .upload-error {
+        margin: 12px 0;
+        padding: 4px 0 0;
+        border: none;
+        box-shadow: none;
+        background: 0 0;
+    }
+
+    #jvm-rich-text-icons_custom_icon_generator #upload-errors .upload-error-filename {
+        font-weight: 600;
+    }
+
+    #jvm-rich-text-icons_custom_icon_generator #upload-errors .upload-error-message {
+        display: block;
+        padding-top: 8px;
+        word-wrap: break-word;
+    }
+
+    #jvm-rich-text-icons_custom_icon_uploader .uploader-inline h2.drop-instructions {
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    #jvm-rich-text-icons_custom_icon_uploader .close{
+        background-color: transparent;
+        border: 0;
+        cursor: pointer;
+        height: 48px;
+        outline: 0;
+        padding: 0;
+        position: absolute;
+        right: 2px;
+        text-align: center;
+        top: 2px;
+        width: 48px;
+        z-index: 1;
+    }
+
+    #jvm-rich-text-icons_custom_icon_uploader .close:before {
+        font: normal 30px/1 dashicons!important;
+        color: #50575e;
+        display: inline-block;
+        content: "\f335";
+        font-weight: 300;
+        margin-top: 1px;
+    }
+
+    #jvm-rich-text-icons_custom_icon_uploader .upload-ui {
+        margin: 2em 0;
+    }
+
+    #jvm-rich-text-icons_custom_icon_uploader .dz-default.dz-message {
+        display: none;
+    }
+
+    #svg-file-list {
+        font-size: 48px;
+        margin: 40px 0;
+    }
+
+    #svg-file-list .icon-dialog-link {
+        border: 1px solid #8c8f94;
+        border-radius: 4px;
+        display: inline-flex;
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 10px 0;
+        color:  #000;
+    }
+
+    #svg-file-list .icon-dialog-link i {
+        margin: 0 !important;
+        top:  0 !important;
+    }

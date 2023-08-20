@@ -1,0 +1,171 @@
+2023-08-11T03:54:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:706
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 706
+
+2023-08-11T04:05:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:05:30+00:00 CRITICAL Uncaught Error: Call to a member function getId() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:05:45+00:00 CRITICAL Uncaught Error: Call to undefined function dump() in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:705
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 705
+
+2023-08-11T04:05:59+00:00 CRITICAL Uncaught Error: Call to undefined function dump() in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:705
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 705
+
+2023-08-11T04:06:04+00:00 CRITICAL Uncaught Error: Call to undefined function dump() in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:705
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 705
+
+2023-08-11T04:06:28+00:00 CRITICAL Uncaught Error: Call to a member function id() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:705
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 705
+
+2023-08-11T04:07:06+00:00 CRITICAL Uncaught Error: Call to a member function id() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:07:07+00:00 CRITICAL Uncaught Error: Call to a member function id() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:07:07+00:00 CRITICAL Uncaught Error: Call to a member function id() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:07:08+00:00 CRITICAL Uncaught Error: Call to a member function id() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:07:18+00:00 CRITICAL Cannot use [] for reading en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:09:00+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on null in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+
+2023-08-11T04:09:45+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on string in /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php:704
+Stack trace:
+#0 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): silva_product_reviews_shortcode()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#3 /var/www/html/maxihabana/wp-includes/block-template.php(230): do_shortcode()
+#4 /var/www/html/maxihabana/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#5 /var/www/html/maxihabana/wp-includes/template-loader.php(106): include('/var/www/html/m...')
+#6 /var/www/html/maxihabana/wp-blog-header.php(19): require_once('/var/www/html/m...')
+#7 /var/www/html/maxihabana/index.php(17): require('/var/www/html/m...')
+#8 {main}
+  thrown en /var/www/html/maxihabana/wp-content/themes/twentytwentythree/functions.php en la línea 704
+

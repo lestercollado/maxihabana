@@ -1,0 +1,4 @@
+/*
+ * JS Check Security All Websites.
+ */
+jQuery(document).ready(function(o){void 0!==security_setting.anti_spam_form&&1==security_setting.anti_spam_form&&o("form").each(function(){var e,n=this,t=["button","submit","hidden"],s=[],u=[];for(i=0;i<n.length;i++)-1<t.indexOf(n[i].type)||s.push(n[i]);0!=s.length&&(o(n).on("submit",function(n){var t=[];return o(s).each(function(n){""!=this.value&&t.push(this.value)}),0!=t.length||(n.preventDefault(),!1)}),e=o('[type="submit"]',n).css("pointer-events","none"),o(s).each(function(t){o(this).on("change",function(){var n;""!=this.value?u.push(t):-1<(n=u.indexOf(t))&&u.splice(n,1),e.css("pointer-events",u.length<=0?"none":"all")})}))})});

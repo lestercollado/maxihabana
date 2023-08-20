@@ -1,0 +1,11 @@
+2023-08-18T03:04:59+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_commission() on null in /var/www/html/maxihabana/wp-content/plugins/premmerce-woocommerce-product-filter/freemius/templates/forms/affiliation.php:31
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/premmerce-woocommerce-product-filter/freemius/includes/fs-core-functions.php(57): require()
+#1 /var/www/html/maxihabana/wp-content/plugins/premmerce-woocommerce-product-filter/freemius/includes/class-freemius.php(23365): fs_get_template()
+#2 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): Freemius->_affiliation_page_render()
+#3 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#4 /var/www/html/maxihabana/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /var/www/html/maxihabana/wp-admin/admin.php(259): do_action()
+#6 {main}
+  thrown en /var/www/html/maxihabana/wp-content/plugins/premmerce-woocommerce-product-filter/freemius/templates/forms/affiliation.php en la línea 31
+

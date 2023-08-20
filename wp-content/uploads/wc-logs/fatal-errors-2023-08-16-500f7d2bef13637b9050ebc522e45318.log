@@ -1,0 +1,136 @@
+2023-08-16T03:05:24+00:00 CRITICAL Cannot redeclare plugins_api() (previously declared in /var/www/html/maxihabana/wp-admin/includes/plugin-install.php:102) en /var/www/html/maxihabana/wp-admin/includes/plugin-install.php en la línea 102
+
+2023-08-16T03:07:09+00:00 CRITICAL Cannot redeclare plugins_api() (previously declared in /var/www/html/maxihabana/wp-admin/includes/plugin-install.php:102) en /var/www/html/maxihabana/wp-admin/includes/plugin-install.php en la línea 102
+
+2023-08-16T17:55:20+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:102
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->appl en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 102
+
+2023-08-16T17:55:21+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:102
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->appl en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 102
+
+2023-08-16T17:55:42+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:102
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->appl en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 102
+
+2023-08-16T17:56:01+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:102
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->appl en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 102
+
+2023-08-16T17:56:07+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:102
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->appl en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 102
+
+2023-08-16T17:57:12+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on array in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:101
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->app en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 101
+
+2023-08-16T17:57:27+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on array in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:101
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->app en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 101
+
+2023-08-16T17:57:28+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on array in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:101
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->app en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 101
+
+2023-08-16T17:57:33+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on array in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:101
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->app en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 101
+
+2023-08-16T17:57:34+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on array in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:101
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->app en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 101
+
+2023-08-16T18:01:09+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on array in /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php:103
+Stack trace:
+#0 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template()
+#2 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output()
+#3 /var/www/html/maxihabana/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper()
+#4 /var/www/html/maxihabana/wp-includes/shortcodes.php(395): WC_Shortcodes::cart()
+#5 [internal function]: do_shortcode_tag()
+#6 /var/www/html/maxihabana/wp-includes/shortcodes.php(235): preg_replace_callback()
+#7 /var/www/html/maxihabana/wp-includes/class-wp-hook.php(310): do_shortcode()
+#8 /var/www/html/maxihabana/wp-includes/plugin.php(205): WP_Hook->app en /var/www/html/maxihabana/wp-content/plugins/woocommerce/templates/cart/cart.php en la línea 103
+

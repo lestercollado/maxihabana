@@ -499,3 +499,9 @@ ul.products-block-post-template div.wc-block-components-product-button{
 div.wc-block-components-sale-badge{
     display: none !important;
 }
+footer a{
+    color: var(--color--claro) !important;
+}
+footer a:hover{
+    color: var(--color--oscuro) !important;
+}
